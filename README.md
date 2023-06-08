@@ -1,1 +1,1 @@
-git config --global user.name "getinthere"
+# Study 폴더 업로드

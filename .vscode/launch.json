@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Programmers.Test",
+      "projectName": "study_626bcc5c"
+    },
+    {
+      "type": "java",
       "name": "TelevisionTest",
       "request": "launch",
       "mainClass": "ex04.TelevisionTest",
