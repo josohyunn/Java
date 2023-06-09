@@ -1,7 +1,6 @@
 package ex05.ch02;
 
-public class Zealot extends ProtossUnit {
-    // 변수 3개는 heap에 뜸
+public class River extends ProtossUnit {
     String name;
     int hp;
     int attack;
@@ -27,12 +26,6 @@ public class Zealot extends ProtossUnit {
     }
 
     public void setAttack(int attack) {
-        this.attack = attack;
-    }
-
-    public Zealot(String name, int hp, int attack) {
-        this.name = name;
-        this.hp = hp;
         this.attack = attack;
     }
 

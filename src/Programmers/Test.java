@@ -2,18 +2,32 @@ package Programmers;
 
 public class Test {
 
-    public static int solution(int num1, int num2) {
-        if ((num1 > 0 && num1 <= 100) && (num2 > 0 && num2 <= 100)) {
-            // int answer = (int) (num1 % num2);
-            System.out.println();
-            return 0;
-            // return answer;
-        } else
-            return -1;
+    public static int solution(int angle) {
+        int answer = 0;
+        if (angle <= 0 || angle > 180)
+            return answer;
+        else {
+            if (0 < angle && angle < 90) {
+                answer = 1;
+                return answer;
+            } else if (angle == 90) {
+                answer = 2;
+                return answer;
+            } else if (90 < angle && angle < 180) {
+                answer = 3;
+                return answer;
+            } else if (angle == 180) {
+                answer = 4;
+                return answer;
+            } else {
+                return answer;
+            }
+
+        }
     }
 
     public static void main(String[] args) {
-        solution(3, 2);
+        System.out.println(solution(70));
     }
 
 }

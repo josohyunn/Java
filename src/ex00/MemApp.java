@@ -19,5 +19,4 @@ public class MemApp {
     }
 }
 
-// 257:04
 // https://us02web.zoom.us/j/81010251645?pwd=N2pmM3ZvSHhoUjJSWndXWDgzQml1UT09
